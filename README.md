@@ -1,10 +1,6 @@
 <img src="docs/bramble-header.svg" alt="Bramble" width="500px"/>
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/movio/bramble.svg)](https://pkg.go.dev/github.com/movio/bramble)
-[![Go Report Card](https://goreportcard.com/badge/github.com/movio/bramble)](https://goreportcard.com/report/github.com/movio/bramble)
-[![codecov](https://codecov.io/gh/movio/bramble/branch/main/graph/badge.svg)](https://codecov.io/gh/movio/bramble)
-
-[**Full documentation**](https://movio.github.io/bramble)
+**Full documentation**
 
 Bramble is a production-ready GraphQL federation gateway.
 It is built to be a simple, reliable and scalable way to aggregate GraphQL services together.
@@ -31,8 +27,6 @@ There is currently no support for:
  
   - Subscriptions
   - Shared unions, interfaces, scalars, enums or inputs across services
-
-Check FAQ for details: https://movio.github.io/bramble/#/federation?id=restriction-on-subscription
 
 ## Contributing
 
@@ -102,5 +96,5 @@ The gateway will then be hosted on `http://localhost:8082/query`, be sure to poi
   fine-grained permissions, namespaces, easy plugin configuration,
   configuration hot-reloading...
 
-  Bramble is also a central piece of software for [Movio](https://movio.co)
+  Bramble is also a central piece of software for Movio
   products and thus is actively maintained and developed.
